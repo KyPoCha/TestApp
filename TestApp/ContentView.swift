@@ -5,20 +5,15 @@
 //  Created by Kyrylo Polishchuk on 09.01.2025.
 //
 
+import ComposableArchitecture
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        AccountListView(store: .init(initialState: .init(),
+                                     reducer: {
+                                         AccountListDomain()
+                                     }))
     }
 }
 
-#Preview {
-    ContentView()
-}
