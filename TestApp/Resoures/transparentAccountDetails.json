@@ -1,0 +1,19 @@
+{
+  "accountNumber": "000000-2906478309",
+  "bankCode": "0800",
+  "transparencyFrom": "2016-08-18T00:00:00",
+  "transparencyTo": "3000-01-01T00:00:00",
+  "publicationTo": "3000-01-01T00:00:00",
+  "actualizationDate": "2016-09-07T10:00:06",
+  "balance": 1063961.87,
+  "currency": "CZK",
+  "name": "SVAZEK OBCÍ - REGION DOLNÍ BEROUNKA",
+  "description": "sbírka pro Nepál",
+  "note": "Příjmový účet",
+  "iban": "CZ13 0800 0000 0029 0647 8309",
+  "statements": [
+    "RR_SK.COM..xml",
+    "prevedeni-it-majetku-do-uzivani.pdf"
+  ]
+}
+
